@@ -1,0 +1,38 @@
+WikiApps.dev
+************
+
+* core datatypes:
+    * integer
+    * decimal (bigdenary)
+    * string
+    * DateTime
+    * Date
+    * Boolean
+
+* core object schemes:
+    * object
+
+* core link schemes:
+    * notification
+
+* spaces
+    * tight to URL
+
+* templates
+    * default values for some objects
+
+* storage ... Postgres
+          ... one large table for all objects
+          ... one large table for all links
+
+* no authentication from start, implemented through links
+* no users, groups etc. -> wiki
+
+* start
+    * empty page with plus
+        -> dialog with list of possible new objects
+        -> create new object window
+
+* example spaces
+    * wikiapps.dev/tester
+        *
